@@ -1,0 +1,28 @@
+{
+  "name": "jenkins-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha ./test/test.js --exit",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "4.16.4"
+  },
+  "devDependencies": {
+    "mocha": "6.0.2",
+    "supertest": "4.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ekpangmichael/CI-with-jenkins.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ekpangmichael/CI-with-jenkins/issues"
+  },
+  "homepage": "https://github.com/ekpangmichael/CI-with-jenkins#readme"
+}
